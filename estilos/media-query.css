@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+@media screen and (min-width: 1258px) and (max-width: 2992px){
+
+    #home{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .bckgf{
+        margin-left: auto;
+        margin-right: 0px;
+        margin-top: -50px;    
+        background-image: url(../imagens/thiago2b.jpeg);
+        height: 1109px;
+        width: 1568px;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+        
+    }
+
+   .bckgr{
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+ .logo{
+    margin-left: 100px;
+ }
+    .nav-item>a{
+        font-size: 40px;
+        color: white;
+    }
+    .texth{
+        margin-top: 540px;
+        margin-left: 225px;
+        font-size: 100px;
+        width: 750px;
+    }
+    .texth>h1{
+        font-size: 70px;
+    }
+    .texth>button{
+        font-size: 40px;
+        color: white;
+        width: 300px;
+        height: 100px;
+        border-radius: 10% 10% 10% 10% ;
+        background: radial-gradient(ellipse at top, #00009e 40%, black),
+        radial-gradient(ellipse at bottom, #0000cf 40%, black);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 800% 800%;
+        animation: colors 10s ease-in-out infinite; 
+        border: 0px solid transparent;
+    }
+
+    .icons{
+        margin-left: auto;
+        margin-right: 250px;
+        margin-top: -150px;
+    }
+
+    .textbckgr{
+        margin-left: 100px;
+        width: 200px;
+    }
+    .textbckgr>h2{
+        font-size: 60px;
+        margin-bottom: 40px;
+        font-weight: 800;
+        font-stretch: ultra-expanded;
+    }
+    .textbckgr>p{
+        font-stretch: extra-expanded;
+        width: 200px;
+    }
+}
